@@ -34,17 +34,17 @@ class PaxfulWebUITests: XCTestCase {
         _ = app.wait(for: .runningForeground, timeout: 5)
         //print(safari.debugDescription)
         
-        safari.webViews["WebView"].buttons["menu"].tap()
+        safari.webViews["WebView"].buttons["меню"].tap()
         _ = app.wait(for: .runningForeground, timeout: 5)
         
-        safari.webViews["WebView"].buttons["menu"].tap()
+        safari.webViews["WebView"].buttons["меню"].tap()
         _ = app.wait(for: .runningForeground, timeout: 5)
         
         
-        safari.webViews["WebView"].buttons["Get started"].tap()
+        safari.webViews["WebView"].buttons["Начать"].tap()
         _ = app.wait(for: .runningForeground, timeout: 5)
         
-        safari.webViews["WebView"].buttons["Get started"].tap()
+        safari.webViews["WebView"].buttons["Начать"].tap()
         _ = app.wait(for: .runningForeground, timeout: 5)
     }
 }

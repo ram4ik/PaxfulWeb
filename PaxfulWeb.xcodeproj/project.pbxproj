@@ -14,6 +14,7 @@
 		95A122632491123000269C51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A122622491123000269C51 /* Preview Assets.xcassets */; };
 		95A122662491123000269C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A122642491123000269C51 /* LaunchScreen.storyboard */; };
 		95A122742491124900269C51 /* PaxfulWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A122732491124900269C51 /* PaxfulWebUITests.swift */; };
+		95A1227C2491189700269C51 /* PaxfulWeb.mov in Resources */ = {isa = PBXBuildFile; fileRef = 95A1227B2491189700269C51 /* PaxfulWeb.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		95A122712491124900269C51 /* PaxfulWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaxfulWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A122732491124900269C51 /* PaxfulWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaxfulWebUITests.swift; sourceTree = "<group>"; };
 		95A122752491124900269C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A1227B2491189700269C51 /* PaxfulWeb.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = PaxfulWeb.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				95A1225F2491123000269C51 /* Assets.xcassets */,
 				95A122642491123000269C51 /* LaunchScreen.storyboard */,
 				95A122672491123000269C51 /* Info.plist */,
+				95A1227B2491189700269C51 /* PaxfulWeb.mov */,
 				95A122612491123000269C51 /* Preview Content */,
 			);
 			path = PaxfulWeb;
@@ -191,6 +194,7 @@
 				95A122662491123000269C51 /* LaunchScreen.storyboard in Resources */,
 				95A122632491123000269C51 /* Preview Assets.xcassets in Resources */,
 				95A122602491123000269C51 /* Assets.xcassets in Resources */,
+				95A1227C2491189700269C51 /* PaxfulWeb.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
