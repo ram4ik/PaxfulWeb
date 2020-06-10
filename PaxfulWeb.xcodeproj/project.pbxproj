@@ -13,7 +13,18 @@
 		95A122602491123000269C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A1225F2491123000269C51 /* Assets.xcassets */; };
 		95A122632491123000269C51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A122622491123000269C51 /* Preview Assets.xcassets */; };
 		95A122662491123000269C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A122642491123000269C51 /* LaunchScreen.storyboard */; };
+		95A122742491124900269C51 /* PaxfulWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A122732491124900269C51 /* PaxfulWebUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95A122762491124900269C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A1224E2491122E00269C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A122552491122E00269C51;
+			remoteInfo = PaxfulWeb;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		95A122562491122E00269C51 /* PaxfulWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaxfulWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +35,20 @@
 		95A122622491123000269C51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95A122652491123000269C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A122672491123000269C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A122712491124900269C51 /* PaxfulWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaxfulWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A122732491124900269C51 /* PaxfulWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaxfulWebUITests.swift; sourceTree = "<group>"; };
+		95A122752491124900269C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		95A122532491122E00269C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A1226E2491124900269C51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				95A122582491122E00269C51 /* PaxfulWeb */,
+				95A122722491124900269C51 /* PaxfulWebUITests */,
 				95A122572491122E00269C51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				95A122562491122E00269C51 /* PaxfulWeb.app */,
+				95A122712491124900269C51 /* PaxfulWebUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +98,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		95A122722491124900269C51 /* PaxfulWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95A122732491124900269C51 /* PaxfulWebUITests.swift */,
+				95A122752491124900269C51 /* Info.plist */,
+			);
+			path = PaxfulWebUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,6 +127,24 @@
 			productReference = 95A122562491122E00269C51 /* PaxfulWeb.app */;
 			productType = "com.apple.product-type.application";
 		};
+		95A122702491124900269C51 /* PaxfulWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A122782491124900269C51 /* Build configuration list for PBXNativeTarget "PaxfulWebUITests" */;
+			buildPhases = (
+				95A1226D2491124900269C51 /* Sources */,
+				95A1226E2491124900269C51 /* Frameworks */,
+				95A1226F2491124900269C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A122772491124900269C51 /* PBXTargetDependency */,
+			);
+			name = PaxfulWebUITests;
+			productName = PaxfulWebUITests;
+			productReference = 95A122712491124900269C51 /* PaxfulWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -107,6 +157,10 @@
 				TargetAttributes = {
 					95A122552491122E00269C51 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					95A122702491124900269C51 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 95A122552491122E00269C51;
 					};
 				};
 			};
@@ -124,6 +178,7 @@
 			projectRoot = "";
 			targets = (
 				95A122552491122E00269C51 /* PaxfulWeb */,
+				95A122702491124900269C51 /* PaxfulWebUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +191,13 @@
 				95A122662491123000269C51 /* LaunchScreen.storyboard in Resources */,
 				95A122632491123000269C51 /* Preview Assets.xcassets in Resources */,
 				95A122602491123000269C51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A1226F2491124900269C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +214,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95A1226D2491124900269C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A122742491124900269C51 /* PaxfulWebUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A122772491124900269C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A122552491122E00269C51 /* PaxfulWeb */;
+			targetProxy = 95A122762491124900269C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		95A122642491123000269C51 /* LaunchScreen.storyboard */ = {
@@ -320,6 +398,44 @@
 			};
 			name = Release;
 		};
+		95A122792491124900269C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				INFOPLIST_FILE = PaxfulWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.PaxfulWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaxfulWeb;
+			};
+			name = Debug;
+		};
+		95A1227A2491124900269C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				INFOPLIST_FILE = PaxfulWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.PaxfulWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaxfulWeb;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +453,15 @@
 			buildConfigurations = (
 				95A1226B2491123000269C51 /* Debug */,
 				95A1226C2491123000269C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A122782491124900269C51 /* Build configuration list for PBXNativeTarget "PaxfulWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A122792491124900269C51 /* Debug */,
+				95A1227A2491124900269C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
